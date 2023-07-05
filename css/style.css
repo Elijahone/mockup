@@ -1,0 +1,60 @@
+main {
+    padding: 6%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    background-color: deeppink;
+}
+
+.content{
+    flex: 1 1 45rem;
+    padding: 8%;
+}
+
+.image {
+    flex: 1 1 45rem;
+}
+
+.image img {
+    width: 80%;
+}
+
+.content h1 {
+    font-size: 65px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+}
+
+.content p {
+    color: white;
+    line-height: .8;
+}
+
+section {
+    padding: 2% 8%;
+}
+.mywrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+.mywrap .box{
+    padding: 4%;
+    background: rgb(224, 219, 219);
+    border-radius: 8px;
+    box-shadow: 2px 3px 3px black;
+    margin-top: 10%;
+}
+
+.box span i{
+    width: 100px;
+    height: 80px;
+    background: deeppink;
+    padding: 5%;
+    border-radius: 6px;
+}
+
+.mywrap .box:hover {
+    transition: 1s;
+    background: lightseagreen;
+    transform: translateY(-16px);
+}
